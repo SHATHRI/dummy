@@ -1,0 +1,4 @@
+ dotnet tool install --global dotnet-sonarscanner
+ dotnet sonarscanner begin /k:"Application3" /d:sonar.host.url="http://localhost:9000"  /d:sonar.login="afe735b52f3dba5fe4320bb4e515f14e1d838052"
+ dotnet build
+ dotnet sonarscanner end /d:sonar.login="afe735b52f3dba5fe4320bb4e515f14e1d838052"
